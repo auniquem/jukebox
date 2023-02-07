@@ -72,7 +72,33 @@ def _sample(zs, labels,  priors, sample_levels, hps):
         hop_length = hps.hop_lengths[level]
         zs = sample_level(zs, labels[level], dict(), level, prior, total_length, hop_length, hps)
     return zs
-
+write= piano, key CDb
+wite= obeo, key of C, 98 Bmp, vocals,"oo" female vocals
+write= vocals, In the style of Beyonce lyrics:
+    I know some people got their own special way
+To make their mark and show the world they can play
+But I'm not one to follow what the crowd does say
+I'm gonna be me, no one else today 
+I'm no one, no one else but me
+I'm gonna be me, no one else can be
+I'm no one, no one else but me
+No one can replace, no one can take my place 
+I'm gonna do what I do and I won't be denied
+I'm gonna take my chances, no matter what they say
+No one can keep me from achieving what's inside
+I'm gonna be me, no one else today
+I'm no one, no one else but me
+I'm gonna be me, no one else can be
+I'm no one, no one else but me
+No one can replace, no one can take my place
+I'm gonna stand my ground and shine on through
+I'm gonna make my mark and be true to me
+No one can take away my point of view
+I'm gonna be me, no one else will do
+I'm no one, no one else but me
+I'm gonna be me, no one else can be
+I'm no one, no one else but me
+No one can replace, no one can take my place
 # Ancestral sample
 def test_ancestral_sample(labels, priors, hps):
     sample_levels = list(range(hps.levels))
